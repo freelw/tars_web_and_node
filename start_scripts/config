@@ -1,3 +1,2 @@
-export DBIP='10.0.1.5'
-export DOCKER_REGISTERY_ADDRESS='10.0.1.10:5000'
-DUMP_HOST='10.0.1.5'
+export DBIP='10.0.1.2'
+
