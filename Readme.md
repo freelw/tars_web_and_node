@@ -22,6 +22,7 @@
 
 ----
 * 如果想部署分布式节点则在另一台机器上执行```./start_tars_node.sh``` 注意此时的config文件中的 DBIP要与刚才的ip完全一致
+
 ##hello world
 
 
