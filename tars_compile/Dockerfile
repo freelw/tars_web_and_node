@@ -6,3 +6,6 @@ RUN export NVM_DIR="/root/.nvm" \
 	&& nvm install v8.10.0 \
 	&& npm i -g @tars/deploy
 
+COPY entrypoint.sh /root/entrypoint.sh
+ENTRYPOINT ["/root/entrypoint.sh"]
+
