@@ -22,7 +22,12 @@
 
 ----
 * 如果想部署分布式节点则在另一台机器上执行```./start_tars_node.sh``` 注意此时的config文件中的 DBIP要与刚才的ip完全一致
+* 在tars web页面上扩容服务到tars_node所在的节点上
 
 ## hello world
+* ```cd http_demo ```切换到demo目录
+* ```../start_scripts/tars_compile.sh HttpServer``` 使用tars_compile镜像去打包demo工程,生成HttpDemo.tgz
+* 在平台的运维管理中发布服务
+* 在新生成的服务中上传HttpDemo.tgz 并发布
 
 
