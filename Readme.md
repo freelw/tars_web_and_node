@@ -26,8 +26,8 @@
 
 ## hello world
 * ```cd http_demo ```切换到demo目录
-* ```../start_scripts/tars_compile.sh HttpServer``` 使用tars_compile镜像去打包demo工程,生成HttpDemo.tgz
+* ```../start_scripts/tars_compile.sh HttpServer``` 使用tars_compile镜像去打包demo工程,生成HttpServer.tgz
 * 在平台的运维管理中发布服务
-* 在新生成的服务中上传HttpDemo.tgz 并发布
+* 在新生成的服务中上传HttpServer.tgz 并发布
 
 
